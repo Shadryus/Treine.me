@@ -1,10 +1,18 @@
 body{
   margin: 0;
   font-family: 'Open Sans', sans-serif;
+
+  /* Cria um gradiente no fundo da pagina */
+  background: linear-gradient(180deg, rgba(227, 255, 248, 0) 82.08%, rgba(227, 255, 248, 0.38) 100%);
+
+  /* Mínimo tenha 100 de altura da viewport*/
+  min-height: 100vh;
 }
+
 .page{
   width: 1000px;
-  margin: 65px auto 0;
+  margin: 0 auto;
+  padding-top: 65px;
 }
 
 nav{
@@ -27,8 +35,13 @@ a{
   color: #1F1534;
 }
 
+ul li a{
+  opacity: 0.5;
+}
+
 ul li a:hover{
   font-weight: bold;
+  opacity: 1;
 }
 
 h1, ul{
@@ -61,17 +74,44 @@ section p{
 }
 
 button{
+  /* Texto */
+  color: white;
   text-transform: uppercase;
   font-family:'Open Sans', sans-serif;
+
+  /* Design */
+  background: #69B99D;
+  border: none;
+  padding: 14px 32px 15px;
+  border-radius: 4px;
+
+  /* Posição */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  /* Mãozinha */
+  cursor: pointer;
+}
+
+button:hover{
+  background: #4d8672;
 }
 
 footer{
   font-size: 14px;
   line-height: 28px;
   text-align: center;
-  margin-top: 80px;
+  margin: 80px 0 30px;
 }
 
 footer a{
   font-weight: bold;
+}
+
+#balls{
+  position: fixed;
+  bottom: 0;
+  right: 0;
 }
