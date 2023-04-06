@@ -3,7 +3,7 @@ body{
   font-family: 'Open Sans', sans-serif;
 
   /* Cria um gradiente no fundo da pagina */
-  background: linear-gradient(135deg,rgba(35,33,54,0.1) 50%,rgba(22,117,106,0.38) 50%);
+  background: linear-gradient(125deg,rgba(35,33,54,0.1) 50%,rgba(22,117,106,0.38) 50%);
 
   /* Mínimo tenha 100 de altura da viewport*/
   min-height: 100vh;
