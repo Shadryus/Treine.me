@@ -3,7 +3,7 @@ body{
   font-family: 'Open Sans', sans-serif;
 
   /* Cria um gradiente no fundo da pagina */
-  background: linear-gradient(180deg, rgba(227, 255, 248, 0) 82.08%, rgba(227, 255, 248, 0.38) 100%);
+  background: linear-gradient(135deg,rgba(35,33,54,0.1) 50%,rgba(22,117,106,0.38) 50%);
 
   /* Mínimo tenha 100 de altura da viewport*/
   min-height: 100vh;
@@ -36,7 +36,7 @@ a{
 }
 
 ul li a{
-  opacity: 0.5;
+  opacity: 0.8;
 }
 
 ul li a:hover{
@@ -93,6 +93,7 @@ button{
 
   /* Mãozinha */
   cursor: pointer;
+  
 }
 
 button:hover{
